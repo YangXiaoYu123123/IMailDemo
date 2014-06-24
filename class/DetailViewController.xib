@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6154.21" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.13"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController" customModule="IMailDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="EPy-QZ-f31" id="RYJ-Uu-hNr"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pE8-2R-Nfl">
+                    <rect key="frame" x="37" y="538" width="30" height="30"/>
+                    <state key="normal" title="返回">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="back:" destination="-1" eventType="touchUpInside" id="tXK-0f-7Qj"/>
+                    </connections>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EPy-QZ-f31">
+                    <rect key="frame" x="0.0" y="64" width="320" height="471"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <string key="text">您好！
+ 
+我自年月份有幸进入公司以来，近年了，期间始终抱着“是我家，繁荣靠大家”的信念以快乐饱满的情绪投入到工作学习中去，一直认认真真、兢兢业业地对待我的每项工作，力求把工作做得尽善尽美，不敢有丝毫懈怠之心，为公司的发展做出了自己应尽的责任，与公司共同进步共同发展。在提高个人工作技术经验的同时，有幸为公司添砖加瓦略尽绵力，此实为我的荣幸。所有这些都是与您的领导和关心重视人才培养是密不可分的，我为能遇到您这样的领导而感到庆幸。在这段共同成长的岁月里，我对公司的领导及同事产生了深厚的感情，我喜欢公司的工作氛围，喜欢公司的每一个伙伴们。我给予了他们的同时，他们也给予了我更多。更感谢您对我的栽培和帮助，我非常的信任你们。
+ 
+随着公司的业务不断发展扩大，我个人的能力也在不断的提升和进步，同时工作职责范围和工作量也在相应地增加、工作强度不断加大。您知道……….(列举所需完成的工作量及工作繁重的原因)等原因常常使得我不得不牺牲休息时间加班加点到深夜甚至到凌晨二、三点，如此大的工作强度已快使我心有余而力不足了，毕竞任何工作都应该在保证不影响身体建康的前提下进行。相信这些情况您应该很了解。在竭尽全力完成工作的同时我还不断探索更好的工作方法，有效地提高了工作效率，降低了工作成本，从而增加了收益。经统计，………(列举一年来完成的工作量,表明是如何的繁重)。
+ 
+同时我们所处的城市是一个正以惊人的速度向前发展的城市，无论是经济还是消费水平在全国都是名列前茅，而且目前的社会经济和物价已呈通货膨胀的趋势。在这种形势下，现有的工资水平已显得很单薄了。
+ 
+鉴于以上因素，为了能更好地为公司效力，也为了使自身能得到更好的发展，特此向您提出加薪申请，申请从年月日开始工资提升到万/年(元/月).
+ 
+人追求的目标越高，他的才能就发展的越快，才能为企业创造更大的价值。如果对员工的工作没有一个明确的激励手段和考核标准，员工的素质、能力高低、做多做少、做好做坏拿的都是一样的工资，那对他们来说，为工作付出的满腔热情、牺牲的休息时间和身体健康是不公平和不值得的。
+ 
+薪酬是衡量工作价值的最佳标准。薪资的高低直接决定了员工工作绩效和质量的高低，以及工作心情的好坏。从某种程度上说，一份好的薪资给员工带来的是强大的激励，也带动了工作积极性；反之增加怠工情绪，影响工作效率和收益，最终影响企业潜能的开发。我相信对于有一定能力和执行力的员工，老板是不会吝啬的，使之能够解除后顾之忧，安心为企服业务。
+ 
+在这里我不用说自己工作做得怎么样、工作态度怎么样，因为您是我的直接领导，这些您应该非常了解，您甚至可以从同事们那里得到对我的评价。提出这样的薪金要求，并不是“居功自傲”，我所付出的谈不上“功”，所以请不要误会我的本意，我只是实话实说。我相信：只要付出，就会有收获！
+ 
+如果您认为我现在的工作内容及质量还未能达到这个薪金标准，我诚恳地希望您能提出宝贵的意见或建议，让我今后有一个努力的方向和目标，在提升自己能力的同时将工作做的更好，向更高的目标迈进。
+ 
+当然加薪不是目的，只是希望让我们做得更好!
+ 
+期待您的答复。</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ife-sY-glM">
+                    <rect key="frame" x="246" y="538" width="30" height="30"/>
+                    <state key="normal" title="确定">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="confirm:" destination="-1" eventType="touchUpInside" id="gTx-tR-V87"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="139" y="173"/>
+        </view>
+    </objects>
+</document>

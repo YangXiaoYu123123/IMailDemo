@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.17" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="1Jh-pI-EoB">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.21" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="1Jh-pI-EoB">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.11"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.13"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -13,7 +13,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="cfc-Rd-YCX"/>
+                        <segue destination="g0c-Bl-GUC" kind="relationship" relationship="rootViewController" id="PQK-iI-XMx"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ceG-uV-mMa" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -21,53 +21,47 @@
             <point key="canvasLocation" x="-628" y="152"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <scene sceneID="lhJ-O9-9F2">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="IMailDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="g0c-Bl-GUC" customClass="ViewController" customModule="IMailDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                        <viewControllerLayoutGuide type="top" id="c2G-Be-XgZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="FGv-3W-yjt"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <view key="view" contentMode="scaleToFill" id="nFd-DD-2v3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EWj-UA-FRP">
-                                <rect key="frame" x="60" y="225" width="62" height="30"/>
-                                <state key="normal" title="message">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="vSB-5w-xpl">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
-                                    <action selector="pushToMessage:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="LlF-tL-V2t"/>
+                                    <outlet property="dataSource" destination="g0c-Bl-GUC" id="bvL-RH-6ol"/>
+                                    <outlet property="delegate" destination="g0c-Bl-GUC" id="EDb-ZM-5Rr"/>
                                 </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xGx-b6-huL">
-                                <rect key="frame" x="282" y="225" width="91" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="Mby-Am-sAs"/>
-                                </constraints>
-                                <state key="normal" title="addressBook">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="pushToAddressBook:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="xGn-RH-NsX"/>
-                                </connections>
-                            </button>
+                            </tableView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="xGx-b6-huL" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="205" id="6zf-Im-aPG"/>
-                            <constraint firstItem="EWj-UA-FRP" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="60" id="Dhf-fy-lMa"/>
-                            <constraint firstAttribute="trailing" secondItem="xGx-b6-huL" secondAttribute="trailing" constant="60" id="IHC-w5-kDd"/>
-                            <constraint firstItem="EWj-UA-FRP" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="205" id="csk-nv-sSx"/>
+                            <constraint firstAttribute="trailing" secondItem="vSB-5w-xpl" secondAttribute="trailing" id="O4z-HC-Jrp"/>
+                            <constraint firstItem="vSB-5w-xpl" firstAttribute="leading" secondItem="nFd-DD-2v3" secondAttribute="leading" id="TnW-JY-nOv"/>
+                            <constraint firstItem="vSB-5w-xpl" firstAttribute="top" secondItem="nFd-DD-2v3" secondAttribute="top" id="VLs-eh-aAX"/>
+                            <constraint firstItem="FGv-3W-yjt" firstAttribute="top" secondItem="vSB-5w-xpl" secondAttribute="bottom" id="VXJ-tG-8sk"/>
                         </constraints>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
-                    <navigationItem key="navigationItem" id="R29-tw-OJA"/>
+                    <navigationItem key="navigationItem" id="wna-Ey-tOR"/>
+                    <connections>
+                        <outlet property="contentView" destination="vSB-5w-xpl" id="cCp-Az-O08"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zro-0d-3th" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="39" y="152"/>
+            <point key="canvasLocation" x="-176" y="152"/>
         </scene>
     </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
 </document>

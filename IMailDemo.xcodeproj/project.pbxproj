@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A42CD9041959230C009A6382 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = A42CD8FF1959230C009A6382 /* 01.png */; };
+		A42CD9051959230C009A6382 /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = A42CD9001959230C009A6382 /* 02.png */; };
+		A42CD9061959230C009A6382 /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = A42CD9011959230C009A6382 /* 03.png */; };
+		A42CD9071959230C009A6382 /* 04.png in Resources */ = {isa = PBXBuildFile; fileRef = A42CD9021959230C009A6382 /* 04.png */; };
+		A42CD9081959230C009A6382 /* 05.png in Resources */ = {isa = PBXBuildFile; fileRef = A42CD9031959230C009A6382 /* 05.png */; };
+		A4A1C71B1959206900A7D0AB /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A1C7191959206900A7D0AB /* RootViewController.swift */; };
+		A4A1C71C1959206900A7D0AB /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4A1C71A1959206900A7D0AB /* RootViewController.xib */; };
+		A4A1C71F195923A900A7D0AB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A1C71D195923A900A7D0AB /* DetailViewController.swift */; };
+		A4A1C720195923A900A7D0AB /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4A1C71E195923A900A7D0AB /* DetailViewController.xib */; };
 		A4B8F73F1952847A0003F324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B8F73E1952847A0003F324 /* AppDelegate.swift */; };
 		A4B8F7411952847A0003F324 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B8F7401952847A0003F324 /* ViewController.swift */; };
 		A4B8F7441952847A0003F324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B8F7421952847A0003F324 /* Main.storyboard */; };
@@ -32,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A42CD8FF1959230C009A6382 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		A42CD9001959230C009A6382 /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
+		A42CD9011959230C009A6382 /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03.png; sourceTree = "<group>"; };
+		A42CD9021959230C009A6382 /* 04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04.png; sourceTree = "<group>"; };
+		A42CD9031959230C009A6382 /* 05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 05.png; sourceTree = "<group>"; };
+		A4A1C7191959206900A7D0AB /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		A4A1C71A1959206900A7D0AB /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		A4A1C71D195923A900A7D0AB /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A4A1C71E195923A900A7D0AB /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		A4B8F7391952847A0003F324 /* IMailDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMailDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B8F73D1952847A0003F324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4B8F73E1952847A0003F324 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +92,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A42CD8FE1959230C009A6382 /* 瀑布流测试图片 */ = {
+			isa = PBXGroup;
+			children = (
+				A42CD8FF1959230C009A6382 /* 01.png */,
+				A42CD9001959230C009A6382 /* 02.png */,
+				A42CD9011959230C009A6382 /* 03.png */,
+				A42CD9021959230C009A6382 /* 04.png */,
+				A42CD9031959230C009A6382 /* 05.png */,
+			);
+			path = "瀑布流测试图片";
+			sourceTree = "<group>";
+		};
+		A42CD90919592363009A6382 /* detailVC */ = {
+			isa = PBXGroup;
+			children = (
+				A4A1C71D195923A900A7D0AB /* DetailViewController.swift */,
+				A4A1C71E195923A900A7D0AB /* DetailViewController.xib */,
+			);
+			name = detailVC;
+			sourceTree = "<group>";
+		};
+		A4A1C7181959204700A7D0AB /* rootVC */ = {
+			isa = PBXGroup;
+			children = (
+				A4A1C7191959206900A7D0AB /* RootViewController.swift */,
+				A4A1C71A1959206900A7D0AB /* RootViewController.xib */,
+			);
+			name = rootVC;
+			sourceTree = "<group>";
+		};
 		A4B8F7301952847A0003F324 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +160,7 @@
 		A4B8F73C1952847A0003F324 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A42CD8FE1959230C009A6382 /* 瀑布流测试图片 */,
 				A4B8F73D1952847A0003F324 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -137,6 +186,8 @@
 		A4B8F75B195285310003F324 /* class */ = {
 			isa = PBXGroup;
 			children = (
+				A42CD90919592363009A6382 /* detailVC */,
+				A4A1C7181959204700A7D0AB /* rootVC */,
 				A4FEA85E1952C0D90031063F /* sendMailVC */,
 				A4B8F75C195285BC0003F324 /* addressListVC */,
 			);
@@ -243,8 +294,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A42CD9081959230C009A6382 /* 05.png in Resources */,
+				A42CD9041959230C009A6382 /* 01.png in Resources */,
 				A4B8F7441952847A0003F324 /* Main.storyboard in Resources */,
 				A4B8F7461952847A0003F324 /* Images.xcassets in Resources */,
+				A4A1C720195923A900A7D0AB /* DetailViewController.xib in Resources */,
+				A42CD9051959230C009A6382 /* 02.png in Resources */,
+				A42CD9061959230C009A6382 /* 03.png in Resources */,
+				A4A1C71C1959206900A7D0AB /* RootViewController.xib in Resources */,
+				A42CD9071959230C009A6382 /* 04.png in Resources */,
 				A4B8F762195285DB0003F324 /* AddressListViewController.xib in Resources */,
 				A4FEA8631952C0F30031063F /* SendMailViewController.xib in Resources */,
 			);
@@ -264,8 +322,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4A1C71B1959206900A7D0AB /* RootViewController.swift in Sources */,
 				A4B8F7411952847A0003F324 /* ViewController.swift in Sources */,
 				A4B8F73F1952847A0003F324 /* AppDelegate.swift in Sources */,
+				A4A1C71F195923A900A7D0AB /* DetailViewController.swift in Sources */,
 				A4B8F761195285DB0003F324 /* AddressListViewController.m in Sources */,
 				A4FEA8621952C0F30031063F /* SendMailViewController.m in Sources */,
 			);
@@ -389,6 +449,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "class/addressListVC/IMailDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -402,6 +463,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "class/addressListVC/IMailDemo-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
